@@ -1,4 +1,12 @@
-from check.input import ask_mark
+from check.input import ask_all_marks
+from calc.marks import average
 
-mark = ask_mark('Eerste getal')
-print(f'Het ingevulde getal is {mark} met het type {type(mark)}')
+# Vraag de gebruiker om cijfers in te voeren.
+marks = ask_all_marks('Cijfer')
+
+# Bereken het gemiddelde van de ingevoerde cijfers.
+marks_average = average(marks)
+
+# Bereken het gemiddelde
+print(f'Het gemiddelde van de {len(marks)} ingevoerd cijfers is {marks_average:.1f}')
+

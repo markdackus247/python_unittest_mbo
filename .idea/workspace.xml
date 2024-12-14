@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a5bf7b0-1338-4a88-b65f-1f969407a8ef" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-    </list>
+    <list default="true" id="4a5bf7b0-1338-4a88-b65f-1f969407a8ef" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,12 +26,14 @@
   "keyToString": {
     "Python tests.Python tests in test_is_float.py.executor": "Run",
     "Python.is_float.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.simple.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests in test_is_float.py">
+  <component name="RunManager">
     <configuration name="is_float" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_unittest_mbo" />
       <option name="ENV_FILES" value="" />

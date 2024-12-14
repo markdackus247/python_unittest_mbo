@@ -117,10 +117,11 @@ def is_mark(number):
     else:
         return True
 
-assert is_mark(0.9) == False
-assert is_mark(1.0) == True
-assert is_mark(10.0) == True
-assert is_mark(10.1) == False
+assert is_mark(0.9) == False, 'Getal mag niet lager zijn dan 1.'
+assert is_mark(1.0) == True, 'Getal mag wel 1 zijn.'
+assert is_mark(5.5) == True, 'Getal moet tussen 1 en 10 zijn.'
+assert is_mark(10.0) == True, 'Getal mag ook 10 zijn.'
+assert is_mark(10.1) == False, 'Getal mag niet hoger dan 10 zijn.'
 
 
 # Deze functie vraagt input van de gebruiker.

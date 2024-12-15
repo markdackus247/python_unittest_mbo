@@ -5,9 +5,6 @@ import re
 # Deze functie controleert of de variabele (item) een float is.
 # Voor het item kan een float, int of string worden ingevoerd.
 # Return value: False: Als de input geen float is. True: wel float.
-
-# Test scenario's:
-# item is een integer
 def is_float(item):
     # A float is a float
     if isinstance(item, float):
@@ -30,3 +27,10 @@ def is_float(item):
             return True
         else:
             return False
+
+
+# Test scenario's:
+# item is een integer, bijvoorbeeld: 5, -12 en 0
+# item is een float, bijvoorbeeld: 7.3 -0.777 en pi
+# item is een string met integer erin, bijvoorbeeld: '7', '12' en '0'
+# item is een string met float erin, bijvoorbeeld: '7.3' '-0.777' en 'pi'

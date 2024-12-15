@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a5bf7b0-1338-4a88-b65f-1f969407a8ef" name="Changes" comment="" />
+    <list default="true" id="4a5bf7b0-1338-4a88-b65f-1f969407a8ef" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/check/input.py" beforeDir="false" afterPath="$PROJECT_DIR$/check/input.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/is_float.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/is_float.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,10 +17,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2qD6m7ffW3uBKCol3jzs0xTtBP0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,7 +28,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_is_float.TestIsFloat.test_is_integer.executor": "Run",
+    "Python tests.Python tests for test_mark.TestAverage.test_empty_list.executor": "Run",
     "Python tests.Python tests in test_is_float.py.executor": "Run",
+    "Python tests.Python tests in utilities.executor": "Run",
+    "Python.input.executor": "Run",
     "Python.is_float.executor": "Run",
     "Python.main.executor": "Run",
     "Python.simple.executor": "Run",
@@ -33,7 +41,7 @@
     "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Python tests for test_mark.TestAverage.test_empty_list">
     <configuration name="is_float" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_unittest_mbo" />
       <option name="ENV_FILES" value="" />
@@ -56,6 +64,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_is_float.TestIsFloat.test_is_integer" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python_unittest_mbo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utilities" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_is_float.TestIsFloat.test_is_integer&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_mark.TestAverage.test_empty_list" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python_unittest_mbo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/calc" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_mark.TestAverage.test_empty_list&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests in test_is_float.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python_unittest_mbo" />
       <option name="ENV_FILES" value="" />
@@ -71,9 +109,27 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in utilities" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python_unittest_mbo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utilities" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/utilities&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_mark.TestAverage.test_empty_list" />
         <item itemvalue="Python tests.Python tests in test_is_float.py" />
+        <item itemvalue="Python tests.Python tests in utilities" />
+        <item itemvalue="Python tests.Python tests for test_is_float.TestIsFloat.test_is_integer" />
         <item itemvalue="Python.is_float" />
       </list>
     </recent_temporary>
@@ -95,15 +151,5 @@
       <updated>1734184956880</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/utilities/test_is_float.py</url>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -10,11 +10,7 @@ class TestIsFloat(TestCase):
     # of integers ook worden gezien als floats.
     def test_is_integer(self):
         # Test positief getal 5
-        self.assertEqual(
-            is_float(5),
-            True,
-            'Integer 5 is also a float'
-        )
+        self.assertEqual(is_float(5),True,'Integer 5 is also a float')
 
         # Test negatief getal -12
         self.assertEqual(

@@ -1,5 +1,5 @@
 import re
-
+import math
 
 # De functie heb ik van internet gehaald.
 # Deze functie controleert of de variabele (item) een float is.
@@ -28,6 +28,7 @@ def is_float(item):
         else:
             return False
 
+print(is_float('pi'))
 
 # Test scenario's:
 # item is een integer, bijvoorbeeld: 5, -12 en 0

@@ -124,11 +124,11 @@ assert is_mark(5.5) == True, 'Getal moet tussen 1 en 10 zijn.'
 assert is_mark(10.0) == True, 'Getal mag ook 10 zijn.'
 assert is_mark(10.1) == False, 'Getal mag niet hoger dan 10 zijn.'
 
-print(f'Het cijfer 1.0 is: {is_mark(1.0)}')
-print(f'Het cijfer 10.0 is: {is_mark(10.0)}')
-print(f'Het cijfer 11.0 is: {is_mark(11.0)}')
-print(f'Het cijfer 0.9 is: {is_mark(0.9)}')
-print(f'Het cijfer 5.5 is: {is_mark(5.5)}')
+# print(f'Het cijfer 1.0 is: {is_mark(1.0)}')
+# print(f'Het cijfer 10.0 is: {is_mark(10.0)}')
+# print(f'Het cijfer 11.0 is: {is_mark(11.0)}')
+# print(f'Het cijfer 0.9 is: {is_mark(0.9)}')
+# print(f'Het cijfer 5.5 is: {is_mark(5.5)}')
 
 
 # Deze functie vraagt input van de gebruiker.

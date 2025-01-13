@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a5bf7b0-1338-4a88-b65f-1f969407a8ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/integration/check_input.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/integration/test_main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/system/test_main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/unit/test_mark.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/MarkProcessor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/RandomUser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/__index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/__use_random_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/test_MarkProcessor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/test_RandomUser.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +61,8 @@
     "Python tests.Python tests in integration.executor": "Run",
     "Python tests.Python tests in python_unittest_mbo.executor": "Run",
     "Python tests.Python tests in system.executor": "Run",
+    "Python tests.Python tests in test_MarkProcessor.py.executor": "Run",
+    "Python tests.Python tests in test_RandomUser.py.executor": "Run",
     "Python tests.Python tests in test_is_float.py.executor": "Run",
     "Python tests.Python tests in test_main.py (1).executor": "Run",
     "Python tests.Python tests in test_main.py (2).executor": "Run",
@@ -69,6 +71,7 @@
     "Python tests.Python tests in tests.executor": "Run",
     "Python tests.Python tests in unit.executor": "Run",
     "Python tests.Python tests in utilities.executor": "Run",
+    "Python.index.executor": "Run",
     "Python.input.executor": "Run",
     "Python.is_float.executor": "Run",
     "Python.main.executor": "Run",
@@ -76,6 +79,7 @@
     "Python.simple.executor": "Run",
     "Python.test_is_float.executor": "Run",
     "Python.test_main.executor": "Run",
+    "Python.use_random_user.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -91,7 +95,51 @@
       <recent name="C:\Users\markd\OneDrive\Documents\GitHub\python_unittest_mbo\tests\system" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in check_input.py">
+  <component name="RunManager" selected="Python tests.Python tests in test_RandomUser.py">
+    <configuration name="__index" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_unittest_mbo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\markd\OneDrive\Documents\GitHub\python_unittest_mbo\Models\__index.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="__use_random_user" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_unittest_mbo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\markd\OneDrive\Documents\GitHub\python_unittest_mbo\Models\__use_random_user.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests in check_input.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python_unittest_mbo" />
       <option name="ENV_FILES" value="" />
@@ -107,73 +155,43 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in integration" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_MarkProcessor.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python_unittest_mbo" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/integration" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Models" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/integration&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Models/test_MarkProcessor.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_main.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_RandomUser.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python_unittest_mbo" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/integration" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Models" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/integration/test_main.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in tests" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="python_unittest_mbo" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in unit" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="python_unittest_mbo" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unit" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/unit&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Models/test_RandomUser.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in test_RandomUser.py" />
+        <item itemvalue="Python.__use_random_user" />
+        <item itemvalue="Python.__index" />
+        <item itemvalue="Python tests.Python tests in test_MarkProcessor.py" />
         <item itemvalue="Python tests.Python tests in check_input.py" />
-        <item itemvalue="Python tests.Python tests in test_main.py" />
-        <item itemvalue="Python tests.Python tests in integration" />
-        <item itemvalue="Python tests.Python tests in tests" />
-        <item itemvalue="Python tests.Python tests in unit" />
       </list>
     </recent_temporary>
   </component>
